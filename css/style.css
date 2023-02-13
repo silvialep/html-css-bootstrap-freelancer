@@ -9,3 +9,62 @@ header {
 #about {
     background-color: rgb(26, 188, 156);
 }
+
+#footer-top {
+    background-color: rgb(58, 84, 109);
+}
+
+#footer-bottom {
+    background-color: rgb(44, 62, 80);
+}
+
+
+
+/* TEST */
+
+hr {
+    border: 2px solid;
+}
+
+.btn_prova {
+    max-width: 20%;
+}
+
+.btn_green {
+    background-color: rgb(26, 188, 156);
+}
+
+.form_prova {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+#footer-top-contained h3 {
+    font-size: 1.3rem;
+}
+
+#footer-top-contained .fa-brands {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.footer_copyright {
+    font-size: 0.8rem;
+}
+
+._link {
+    text-decoration: none;
+    color: rgb(26, 188, 156);
+}

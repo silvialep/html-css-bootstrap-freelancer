@@ -9,7 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -38,7 +40,7 @@
                     <div class="col text-center">
                         <img src="" alt="profilo">
                         <h1 class="fs-1 fw-bold py-2">start bootstrap</h1>
-                        <hr>
+                        <hr class="w-50 mx-auto">
                         <div>
                             <span>graphic artist</span>
                             <span>web designer</span>
@@ -52,71 +54,122 @@
         </section>
 
         <section id="portfolio" class="container py-5">
-            <h2 class="text-center py-2 text-uppercase fs-2">portfolio</h2>
-            <hr>
-            <div class="row py-2">
-                <div class="col">
-                    <div class="p-3 mb-2 bg-primary text-white">
-                        immagine1
-                    </div>
+            <h2 class="text-center py-2 text-uppercase fs-2 fw-bold">portfolio</h2>
+            <hr class="w-50 mx-auto">
+            <div class="row pt-2 gap-3">
+                <div class="col p-3 mb-2 bg-primary text-white">
+                    immagine1
                 </div>
-                <div class="col">
-                    <div class="p-3 mb-2 bg-secondary text-white">
-                        immagine2
-                    </div>
+                <div class="col p-3 mb-2 bg-secondary text-white">
+                    immagine2
                 </div>
-                <div class="col">
-                    <div class="p-3 mb-2 bg-success text-white">
-                        immagine3
-                    </div>
+                <div class="col p-3 mb-2 bg-success text-white">
+                    immagine3
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
-                    <div class="p-3 mb-2 bg-danger text-white">
-                        immagine4
-                    </div>
+            <div class="row gap-3">
+                <div class="col p-3 mb-2 bg-danger text-white">
+                    immagine4
                 </div>
-                <div class="col">
-                    <div class="p-3 mb-2 bg-warning text-dark">
-                        immagine5
-                    </div>
+                <div class="col p-3 mb-2 bg-warning text-dark">
+                    immagine5
                 </div>
-                <div class="col">
-                    <div class="p-3 mb-2 bg-info text-white h-auto">
-                        immagine6
-                    </div>
+                <div class="col p-3 mb-2 bg-info text-white h-auto">
+                    immagine6
                 </div>
             </div>
         </section>
 
         <section id="about">
-            <div class="container">
-                <div id="about-container" class="text-white w-75 py-5 m-auto">
-                    <div class="row">
-                    <h2 class="text-center py-2 text-uppercase fs-2">about</h2>
-                    <hr>
+            <div class="container text-white w-75 py-5">
+                <div class="row">
+                <h2 class="text-center py-2 text-uppercase fs-2 fw-bold">about</h2>
+                <hr class="w-50 mx-auto">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis? Magnam, blanditiis.
+                        </p>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis? Magnam, blanditiis.
-                            </p>
-                        </div>
-                        <div class="col">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis? Magnam, blanditiis.
-                            </p>
-                        </div>
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis? Magnam, blanditiis.
+                        </p>
                     </div>
-                    <div class="row py-3">
-                        <button type="button" class="btn btn-outline-light w-25 mx-auto">Download</button>
-                    </div>
+                </div>
+                <div class="row py-3">
+                    <button type="button" class="btn btn_prova btn-outline-light mx-auto fs-6"><i class="fa-solid fa-download"></i> Download</button>
                 </div>
             </div>
         </section>
 
+        <section id="contact" class="container w-75 py-5">
+            <h2 class="text-center py-2 text-uppercase fs-2 fw-bold">contact me</h2>
+            <hr class="w-50 mx-auto">
+            <div class="mb-3">
+                <input type="text" class="form-control form_prova" id="formGroupExampleInput" placeholder="Name">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control form_prova" id="formGroupExampleInput2" placeholder="Email Address">
+            </div>
+            <div class="mb-3">
+                <input type="tel" class="form-control form_prova" id="formGroupExampleInput2" placeholder="Phone Number">
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control form_prova" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 150px"></textarea>
+                <label for="floatingTextarea2" class="fw-4">Message</label>
+            </div>
+            <button class="btn btn-primary btn_green" type="submit">Send</button>
+
+        </section>
+
     </main>
+
+    <footer>
+        <div id="footer-top">
+            <div id="footer-top-contained" class="container">
+                <div class="row gx-5 py-5 text-center text-white">
+                    <div class="col-4">
+                        <h3 class="text-uppercase">location</h3>
+                        <span>2215 John Daniel Drive Clark, MO 54243</span>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="text-uppercase">around the web</h3>
+                        <div class="d-flex flex-row justify-content-center gap-3">
+                            <div class="circle">
+                                <i class="fa-brands fa-facebook-f px-3 text-center"></i>
+                            </div>
+                            <div class="circle">
+                                <i class="fa-brands fa-google-plus-g px-3 text-center"></i>
+                            </div>
+                            <div class="circle">
+                                <i class="fa-brands fa-twitter px-3 text-center"></i>
+                            </div>
+                            <div class="circle">
+                                <i class="fa-brands fa-linkedin-in px-3 text-center"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="text-uppercase">about freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="_link">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="footer-bottom">
+            <div id="footer-bottom-contained" class="container">
+                <div class="row">
+                    <div class="col py-4 text-white text-center footer_copyright">
+                        Copyright <i class="fa-regular fa-copyright"></i> Your Website 2023
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
