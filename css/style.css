@@ -27,7 +27,8 @@ hr {
 }
 
 .btn_prova {
-    max-width: 20%;
+    font-size: small;
+    max-width: 30%;
 }
 
 .btn_green {
