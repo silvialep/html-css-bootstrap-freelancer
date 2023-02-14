@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap for beginners</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header class="text-white text-uppercase py-3">
@@ -29,16 +32,16 @@
             </div>
         </nav>
 
-        
+
     </header>
-    
+
 
     <main>
         <section id="jumbo" class="text-uppercase text-white">
             <div id="jumbo-contained" class="container py-5">
                 <div class="row">
                     <div class="col text-center">
-                        <img src="" alt="profilo">
+                        <img src="img/avatar.svg" class="img-fluid object-fit-cover w-25 mb-2" alt="profilo">
                         <h1 class="fs-1 fw-bold py-2">start bootstrap</h1>
                         <hr class="w-50 mx-auto">
                         <div>
@@ -56,50 +59,54 @@
         <section id="portfolio" class="container py-5">
             <h2 class="text-center py-2 text-uppercase fs-2 fw-bold">portfolio</h2>
             <hr class="w-50 mx-auto">
-            <div class="row pt-2 gap-3">
-                <div class="col p-3 mb-2 bg-primary text-white">
-                    immagine1
+            <div class="row row-cols-3 pt-2 mb-2 g-3">
+                <div class="col bg-primary text-center">
+                    <img src="https://picsum.photos/300" class="img-fluid object-fit-cover" alt="immagine di prova">
                 </div>
-                <div class="col p-3 mb-2 bg-secondary text-white">
-                    immagine2
+                <div class="col text-center">
+                    <img src="https://picsum.photos/300" class="img-fluid object-fit-cover" alt="immagine di prova">
                 </div>
-                <div class="col p-3 mb-2 bg-success text-white">
-                    immagine3
+                <div class="col bg-success text-center">
+                    <img src="https://picsum.photos/300" class="img-fluid object-fit-cover" alt="immagine di prova">
                 </div>
-            </div>
-            <div class="row gap-3">
-                <div class="col p-3 mb-2 bg-danger text-white">
-                    immagine4
+                <div class="col bg-danger text-center">
+                    <img src="https://picsum.photos/300" class="img-fluid object-fit-cover" alt="immagine di prova">
                 </div>
-                <div class="col p-3 mb-2 bg-warning text-dark">
-                    immagine5
+                <div class="col bg-warning text-center">
+                    <img src="https://picsum.photos/300" class="img-fluid object-fit-cover" alt="immagine di prova">
                 </div>
-                <div class="col p-3 mb-2 bg-info text-white h-auto">
-                    immagine6
+                <div class="col bg-info text-center">
+                    <img src="https://picsum.photos/300" class="img-fluid object-fit-cover" alt="immagine di prova">
                 </div>
             </div>
+
         </section>
 
         <section id="about">
             <div class="container text-white w-75 py-5">
                 <div class="row">
-                <h2 class="text-center py-2 text-uppercase fs-2 fw-bold">about</h2>
-                <hr class="w-50 mx-auto">
+                    <h2 class="text-center py-2 text-uppercase fs-2 fw-bold">about</h2>
+                    <hr class="w-50 mx-auto">
                 </div>
                 <div class="row">
                     <div class="col">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis? Magnam, blanditiis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita
+                            minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis?
+                            Magnam, blanditiis.
                         </p>
                     </div>
                     <div class="col">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis? Magnam, blanditiis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ullam fugiat est expedita
+                            minus aliquid, ut blanditiis unde eum ducimus. Quo error maxime animi est, nihil saepe quis?
+                            Magnam, blanditiis.
                         </p>
                     </div>
                 </div>
                 <div class="row py-3">
-                    <button type="button" class="btn btn_prova btn-outline-light mx-auto fs-6"><i class="fa-solid fa-download"></i> Download</button>
+                    <button type="button" class="btn btn_prova btn-outline-light mx-auto fs-6"><i
+                            class="fa-solid fa-download"></i> Download</button>
                 </div>
             </div>
         </section>
@@ -111,10 +118,12 @@
                 <input type="text" class="form-control form_prova" id="formGroupExampleInput" placeholder="Name">
             </div>
             <div class="mb-3">
-                <input type="email" class="form-control form_prova" id="formGroupExampleInput2" placeholder="Email Address">
+                <input type="email" class="form-control form_prova" id="formGroupExampleInput2"
+                    placeholder="Email Address">
             </div>
             <div class="mb-3">
-                <input type="tel" class="form-control form_prova" id="formGroupExampleInput2" placeholder="Phone Number">
+                <input type="tel" class="form-control form_prova" id="formGroupExampleInput2"
+                    placeholder="Phone Number">
             </div>
             <div class="form-floating mb-3">
                 <textarea class="form-control form_prova" placeholder="Leave a comment here" id="floatingTextarea2"
@@ -154,7 +163,8 @@
                     </div>
                     <div class="col-4">
                         <h3 class="text-uppercase">about freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="_link">Start Bootstrap</a>.</p>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#"
+                                class="_link">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -170,10 +180,11 @@
             </div>
         </div>
     </footer>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
