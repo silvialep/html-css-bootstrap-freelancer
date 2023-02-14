@@ -22,12 +22,17 @@ header {
 
 /* TEST */
 
-hr {
-    border: 2px solid;
+.small-line {
+    width: 10%;
+    height: 3px;
+}
+
+#jumbo-contained span {
+    font-weight: 600;
 }
 
 .btn_prova {
-    font-size: small;
+    font-size: normal;
     max-width: 30%;
 }
 
