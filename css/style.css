@@ -22,6 +22,10 @@ header {
 
 /* TEST */
 
+.my_img {
+    max-width: 300px;
+}
+
 .small-line {
     width: 10%;
     height: 3px;
